@@ -18,6 +18,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6,.title{
+    color: var(--blue-header);
+}
 h1{
     font-size: 2rem;
 }
@@ -29,6 +32,7 @@ p {
     margin: 0;
     padding: 0;
     line-height: 1.55rem;
+    color: var(--grey-text);
 }
 
 /* ================== Buttons ==================== */
@@ -46,9 +50,9 @@ p {
     font-family: inherit;
     transition: all .3s;
 }
-.btn:hover{
-    /* border: 2px solid var(--black); */
-}
+/* .btn:hover{
+    border: 2px solid var(--black);
+} */
 .btn-primary{
     background: var(--primary-pink);
     color: var(--white);
@@ -167,8 +171,6 @@ p {
     }
     
 }
-
-
 
 section{
     padding: 4rem 1rem;
