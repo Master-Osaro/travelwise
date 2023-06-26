@@ -4,3 +4,9 @@
     position: relative;
     padding: 0 1rem;
 }
+
+.logo {
+    font-size: 1.6rem;
+    color: var(--primary-pink);
+    font-weight: 700;
+}

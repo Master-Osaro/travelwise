@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Roboto, Montserrat, Mulish } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Intro from '@/components/Intro'
@@ -9,7 +9,16 @@ import Locations from '@/components/Locations'
 import Subscribe from '@/components/Subscribe'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight : ['100','300','400','500','700', '900'],
+  variable: '--font-roboto',
+})
+
+const mulish = Mulish({
+  subsets: ['latin'],
+  variable: '--font-mulish',
+})
 
 export default function Home() {
   return (
@@ -21,14 +30,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className={`${inter.className}`}>
+      <main className={`${roboto.variable} ${mulish.variable} ${styles.main}`}>
         <Intro />
         <div className="client__list"></div>
         <ValueProp />
         <Locations />
         <Subscribe />
       </main>
-      <Footer inter={inter}/>
+      <Footer roboto={roboto}/>
     </>
   )
 }

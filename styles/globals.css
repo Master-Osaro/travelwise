@@ -7,21 +7,27 @@
 
 :root{
     --primary-pink: #ef1c49;
-    --blue-header: #344154;
+    --blue-header: #2a313d;
     --grey-text: #788193;
+    --light-grey: #bcc6da;
     --pink-light: #fbc5d2;
     --white: #fff;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1{
     font-size: 2rem;
-    text-transform: capitalize;
 }
 h1 span{
     border-bottom: 4px dashed var(--pink);
 }
 
 p {
+    margin: 0;
+    padding: 0;
     line-height: 1.55rem;
 }
 
@@ -51,6 +57,7 @@ p {
 .btn-secondary{
     border: 2px solid var(--primary-pink);
     color: var(--primary-pink);
+    background: var(--white);
 }
 
 .btn-group{
@@ -78,6 +85,12 @@ p {
     width: 100%;
     max-width: 1200px;
     padding: 2rem 1rem;
+}
+
+.nav__group{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
 }
 
 .nav-list{
@@ -168,7 +181,7 @@ section, footer{
     position: relative;
 }
 
-.section-inner, nav{
+.section__inner, nav{
     width: 100%;
     max-width: 1200px;
     padding: 0 1rem;

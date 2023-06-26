@@ -1,6 +1,6 @@
-function Footer({inter}) {
+function Footer({roboto}) {
   return (
-    <footer className={`${inter.className}`}>
+    <footer className={`${roboto.className}`}>
         <div>
             <h5>Company</h5>
             <ul className={`nav-list` }>
