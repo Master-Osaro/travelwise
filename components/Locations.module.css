@@ -1,0 +1,22 @@
+.section__locations h2{
+    font-size: 2rem;
+}
+
+.location__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr) );
+    gap: 1rem;
+}
+.location__list .location{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.location__list .location button{
+    width: fit-content;
+}
+
+.location__list div img{
+    height: 100px;
+    width: 100%;
+}

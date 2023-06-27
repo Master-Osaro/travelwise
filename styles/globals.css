@@ -10,6 +10,7 @@
     --blue-header: #2a313d;
     --grey-text: #788193;
     --light-grey: #bcc6da;
+    --bg-grey: #f9f9f9;
     --pink-light: #fbc5d2;
     --white: #fff;
 }
@@ -33,6 +34,10 @@ p {
     padding: 0;
     line-height: 1.55rem;
     color: var(--grey-text);
+}
+
+.bg__grey{
+    background: var(--bg-grey);
 }
 
 /* ================== Buttons ==================== */

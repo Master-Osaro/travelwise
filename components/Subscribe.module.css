@@ -1,0 +1,10 @@
+.section__subscribe .section__inner{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.section__subscribe .media{
+    height: 200px;
+    width: 200px;
+    background: var(--grey-text);
+}
