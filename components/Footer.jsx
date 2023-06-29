@@ -1,8 +1,11 @@
+import Image from "next/image"
+
 function Footer({roboto}) {
   return (
     <footer className={`${roboto.className}`}>
         <div className="section__inner">
-        <div>
+            <div className="footer-grid">
+            <div>
             <h5>Company</h5>
             <ul className="footer-links">
                 <li><a href="#"><i className="bi bi-map"></i>About Us</a></li>
@@ -50,6 +53,11 @@ function Footer({roboto}) {
         </div>
         <div>
             <h5>United States</h5>
+        </div>
+        </div>
+        <div className="logo-wrapper">
+            <div className="logo">Travelwise</div>
+            <p>2023. All rights reserved</p>
         </div>
         </div>
     </footer>

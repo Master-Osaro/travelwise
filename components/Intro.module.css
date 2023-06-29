@@ -113,6 +113,7 @@
     border-radius: 50%;
     aspect-ratio: 1;
     display: flex;
+    cursor: pointer;
 }
 .search__btn svg{
     color: var(--white);
