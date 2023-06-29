@@ -1,6 +1,8 @@
 import style from "@/components/Value.module.css"
 import Image from "next/image"
-import cameraman from "@/assets/cameraman.png"
+import image_cameraman from "@/assets/cameraman.png"
+import image_locationIcon from "@/assets/location_svg.svg"
+import image_hotspotIcon from "@/assets/hotspot_icon.svg"
 import world from "@/assets/world_map.png"
 function ValueProp() {
   return (
@@ -9,8 +11,30 @@ function ValueProp() {
         <div className={`${style.value} value-1`}>
           <div className={`${style.value__photo}`}>
             <Image
-            src={cameraman}
+            src={image_cameraman}
             />
+            <div className={`${style.destinations__card}`}>
+              <div className={`${style.image__wrapper}`}>
+              <Image
+                src={image_locationIcon}
+              />
+              </div>
+              
+              <h4>600%</h4>
+              <p>Destinations</p>
+            </div>
+            <div className={`${style.customer__card}`}>
+            <div className={`${style.image__wrapper}`}>
+              <Image
+                src={image_hotspotIcon}
+              />
+              </div>
+              <div className={`${style.stats}`}>
+                <h4>5000+</h4>
+                <p>Customers</p>
+              </div>
+              
+            </div>
           </div>
           <div className={`${style.value__content}`}>
             <h2>Travel and experience seamless experience with us</h2>
