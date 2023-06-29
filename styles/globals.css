@@ -12,6 +12,7 @@
     --blue-header: #2a313d;
     --grey-text: #788193;
     --light-grey: #bcc6da;
+    --very-light-grey: #ecf0f7;
     --bg-grey: #f9f9f9;
     --white: #fff;
 }
@@ -195,10 +196,16 @@ section, footer{
     padding: 0 1rem;
 }
 
+footer{
+    flex-direction: column;
+    align-items: center;
+}
+
 footer .section__inner{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin-bottom: 4rem;
+    padding-top: 4rem ;
 }
 footer h5{
     margin-bottom: 1rem;
@@ -217,3 +224,9 @@ footer h5{
     font-size: 0.85rem;
 }
 
+footer::before{
+    content: "";
+    height: 1px;
+    background: var(--very-light-grey);
+    width: 100%;
+}
