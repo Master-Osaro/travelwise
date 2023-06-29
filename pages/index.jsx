@@ -8,6 +8,7 @@ import ValueProp from '@/components/ValueProp'
 import Locations from '@/components/Locations'
 import Subscribe from '@/components/Subscribe'
 import Footer from '@/components/Footer'
+import Partners from '@/components/Partners'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -32,6 +33,7 @@ export default function Home() {
       <Header />
       <main className={`${roboto.variable} ${mulish.variable} ${styles.main}`}>
         <Intro />
+        <Partners />
         <div className="client__list"></div>
         <ValueProp />
         <Locations />
