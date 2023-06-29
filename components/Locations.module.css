@@ -62,3 +62,12 @@
 .location .book_btn__group button{
     font-size: 0.75rem;
 }
+.location .rating{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--orange);
+}
+.location .rating::before{
+    content: url("../assets/star2.svg");
+}

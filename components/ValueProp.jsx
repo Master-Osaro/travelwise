@@ -5,8 +5,8 @@ import image_locationIcon from "@/assets/location_svg.svg"
 import image_hotspotIcon from "@/assets/hotspot_icon.svg"
 import world from "@/assets/world_map.png"
 function ValueProp() {
-  return (
-    <section className="section section__value">
+  return (<>
+    <section className="section section__value bg__grey">
       <div className="section__inner">
         <div className={`${style.value} value-1`}>
           <div className={`${style.value__photo}`}>
@@ -42,7 +42,12 @@ function ValueProp() {
             <button className="btn btn-primary">Start booking</button>
           </div>
         </div>
-        <div className={`${style.value} ${style.value__2}`}>
+        
+      </div>
+    </section>
+    <section className="section section__value">
+      <div className="section__inner">
+      <div className={`${style.value} ${style.value__2}`}>
           <div className={`${style.value__content}`}>
             <h2>Our stories have adventures and you can explore them all!</h2>
             <p>We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our specialties. Start your adventure now! Nature has already called you</p>
@@ -56,6 +61,7 @@ function ValueProp() {
         </div>
       </div>
     </section>
+    </>
   )
 }
 

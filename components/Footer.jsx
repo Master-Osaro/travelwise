@@ -1,4 +1,8 @@
 import Image from "next/image"
+import facebook from "@/assets/socials/facebook.svg"
+import twitter from "@/assets/socials/twitter.svg"
+import instagram from "@/assets/socials/instagram.svg"
+import telegram from "@/assets/socials/telegram.svg"
 
 function Footer({nunito}) {
   return (
@@ -50,13 +54,23 @@ function Footer({nunito}) {
         </div>
         <div>
             <h5>Contact Us</h5>
+            <ul className="footer-links">
+                <li><a href="#"><i className="bi bi-map"></i>support@travelwise.com</a></li>
+            </ul>
+            <ul className="footer-links social-list">
+                <li><a href="#"><Image src={facebook} /></a></li>
+                <li><a href="#"><Image src={twitter} /></a></li>
+                <li><a href="#"><Image src={instagram} /></a></li>
+                <li><a href="#"><Image src={telegram} /></a></li>
+            </ul>
+
         </div>
         <div>
             <h5>United States</h5>
         </div>
         </div>
         <div className="logo-wrapper">
-            <div className="logo">Travelwise</div>
+            <h4 className="logo">Travelwise</h4>
             <p>2023. All rights reserved</p>
         </div>
         </div>
