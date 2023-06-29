@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4rem 0;
-    gap: 1rem;
+    gap: 2rem;
+    align-items: center;
 }
 .value__content{
     display: flex;
@@ -16,7 +17,17 @@
     width: fit-content;
 }
 .value__photo{
-    background: var(--grey-text);
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.value__photo img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    justify-self: center;
+}
+.value__2 .value__photo img{
+    opacity: 0.6;
 }
