@@ -1,10 +1,38 @@
 .section__subscribe .section__inner{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-items: center;
+    padding: 2rem 4rem;
+    background: var(--pink-very-light);
+    border-radius: 1rem;
 }
-.section__subscribe .media{
-    height: 200px;
-    width: 200px;
-    background: var(--grey-text);
+.section__subscribe h3{
+    font-size: 1.45rem;
+    margin-bottom: 1rem;
+}
+.section__subscribe .media img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.section__subscribe form{
+    margin-top: 1rem;
+    display: flex;
+}
+.section__subscribe input{
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    font-weight: 700; 
+    border: 2px solid transparent;
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all .3s;
+}
+.section__subscribe button{
+    border-radius: 0 0.5rem 0.5rem 0;
 }

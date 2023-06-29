@@ -7,11 +7,12 @@
 
 :root{
     --primary-pink: #ef1c49;
+    --pink-light: #fbc5d2;
+    --pink-very-light: #FEE1E6;
     --blue-header: #2a313d;
     --grey-text: #788193;
     --light-grey: #bcc6da;
     --bg-grey: #f9f9f9;
-    --pink-light: #fbc5d2;
     --white: #fff;
 }
 
@@ -197,6 +198,7 @@ section, footer{
 footer .section__inner{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-bottom: 4rem;
 }
 footer h5{
     margin-bottom: 1rem;
