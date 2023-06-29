@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-function Footer({roboto}) {
+function Footer({nunito}) {
   return (
-    <footer className={`${roboto.className}`}>
+    <footer className={`${nunito.className}`}>
         <div className="section__inner">
             <div className="footer-grid">
             <div>
