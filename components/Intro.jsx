@@ -12,7 +12,7 @@ function Intro() {
             <div className={`${style.content}`}>
                 <h1>The world is waiting for you to explore it</h1>
                 <p>There are many packages more than you need just to make sure that you get enough options to avail the best one</p>
-                <div className={`${style.search__form}`}>
+                <form className={`${style.search__form}`}>
                     <div className={`${style.where}`}>
                         <div className={`${style.icon}`}>
                             <GeoAlt size={32} />
@@ -34,12 +34,12 @@ function Intro() {
                         </div>
                         
                     </div>
-                    <div className={`${style.search__btn}`}>
+                    <button className={`${style.search__btn}`}>
                         <div className="icon">
                             <Search size={24}/>
                         </div>
-                    </div>
-                </div>
+                    </button>
+                </form>
 
                 <div className={`${style.social__proof}`}>
                     <div className={`${style.proof}`}>

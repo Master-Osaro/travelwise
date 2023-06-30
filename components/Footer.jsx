@@ -3,6 +3,7 @@ import facebook from "@/assets/socials/facebook.svg"
 import twitter from "@/assets/socials/twitter.svg"
 import instagram from "@/assets/socials/instagram.svg"
 import telegram from "@/assets/socials/telegram.svg"
+import Logo from "./Logo"
 
 function Footer({nunito}) {
   return (
@@ -70,7 +71,7 @@ function Footer({nunito}) {
         </div>
         </div>
         <div className="logo-wrapper">
-            <h4 className="logo">Travelwise</h4>
+            <Logo />
             <p>2023. All rights reserved</p>
         </div>
         </div>

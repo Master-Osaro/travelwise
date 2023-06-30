@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import styles from '@/components/Header.module.css'
+import Logo from './Logo'
 
 const inter = Inter({ subsets: ['latin'] })
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
     <header className={`${inter.className} ${styles.header}`}>
     <nav className={`${inter.className} nav`}>
       <div className="nav__group">
-        <div className={`${styles.logo}`}>Travelwise</div>
+        <Logo />
         {/* <button class="menu" aria-label="menu" aria-expanded={"false"} onClick={()=>{console.log("Clickkk")}}><i classNameName="bi bi-list"></i></button> */}
         <ul className={`nav-list`}>
           <li><a href="#programs"><i className="bi bi-map"></i>Home</a></li>

@@ -15,7 +15,7 @@
     --grey-text: #788193;
     --light-grey: #bcc6da;
     --very-light-grey: #ecf0f7;
-    --bg-grey: #f5f5f5;
+    --bg-grey: #F9F9F9;
     --white: #fff;
 }
 
@@ -115,6 +115,16 @@ p {
     display: flex;
     gap: 1.5rem;
     
+}
+
+.nav img, .logo-wrapper img{
+    max-width: 40px;
+    height: auto;
+}
+nav .logo, .logo-wrapper .logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .menu{
