@@ -116,6 +116,12 @@ p {
     gap: 0.8rem;
     
 }
+@media screen and (max-width: 778px) {
+    .nav .nav-list{
+        display: none;
+        
+    }
+}
 
 .nav img, .logo-wrapper img{
     max-width: 40px;
@@ -222,6 +228,7 @@ footer .section__inner{
 footer .section__inner .footer-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
 }
 
 footer .section__inner .footer-grid::before{

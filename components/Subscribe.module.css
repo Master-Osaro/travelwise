@@ -7,6 +7,16 @@
     background: var(--pink-very-light);
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 778px) {
+    .section__subscribe .section__inner{
+        grid-template-columns:  1fr;
+        gap: 1rem;
+        text-align: center;
+        align-items: center;
+
+    }
+}
 .section__subscribe h3{
     font-size: 1.45rem;
     margin-bottom: 1rem;
