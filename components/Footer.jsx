@@ -1,7 +1,7 @@
 import Image from "next/image"
 import facebook from "@/assets/socials/facebook.svg"
 import twitter from "@/assets/socials/twitter.svg"
-import instagram from "@/assets/socials/instagram.svg"
+// import instagram from "@/assets/socials/instagram.svg"
 import telegram from "@/assets/socials/telegram.svg"
 import Logo from "./Logo"
 
@@ -61,7 +61,7 @@ function Footer({nunito}) {
             <ul className="footer-links social-list">
                 <li><a href="#"><Image src={facebook} alt="Facebook link"/></a></li>
                 <li><a href="#"><Image src={twitter} alt="Twitter link"/></a></li>
-                <li><a href="#"><Image src={instagram} alt="Instagram link"/></a></li>
+                {/* <li><a href="#"><Image src={instagram} alt="Instagram link"/></a></li> */}
                 <li><a href="#"><Image src={telegram} alt="Telegram link"/></a></li>
             </ul>
 
