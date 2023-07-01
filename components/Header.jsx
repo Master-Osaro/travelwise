@@ -13,7 +13,6 @@ function Header() {
         <ul className={`nav-list`}>
           <li><a href="#programs"><i className="bi bi-map"></i>Home</a></li>
           <li><a href="#admissions"><i className="bi bi-arrows-move"></i>Listing</a></li>
-          <li><a href="#resources"><i className="bi bi-journal-richtext"></i>Pages</a></li>
           <li><a href="#contact"><i className="bi bi-chat-square"></i>Contact Us</a></li>
         </ul>
       </div>

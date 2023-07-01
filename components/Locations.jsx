@@ -13,7 +13,7 @@ function Locations() {
             <p><span>There are many packages more than you need just to make sure that you get enough options to avail the best one</span></p>
             <div className={`${style.location__list} location__list`}>
                 <div className={`${style.location}`}>
-                    <Image src={location1} alt="" />
+                    <Image src={location1} alt="Zoom out shot of man walking on sand dune" />
                     <div className={style.location__header}><h3>Mountain Hiking Tour</h3> <div className={style.rating}>4.5</div></div>
                     <p>Himalayas, Hawaii</p>
                     <div className={style.book_btn__group}>
@@ -22,7 +22,7 @@ function Locations() {
                     </div>
                 </div>
                 <div className={`${style.location}`}>
-                    <Image src={location2} alt="" />
+                    <Image src={location2} alt="blue clear skies" />
                     <div className={style.location__header}><h3>Mountain Hiking Tour</h3> <div className={style.rating}>4.5</div></div>
                     <p>Himalayas, Hawaii</p>
                     <div className={style.book_btn__group}>
@@ -31,7 +31,7 @@ function Locations() {
                     </div>
                 </div>
                 <div className={`${style.location}`}>
-                    <Image src={location3} alt="" />
+                    <Image src={location3} alt="Traveler on brown hat staring across the horizon"  />
                     <div className={style.location__header}><h3>Mountain Hiking Tour</h3> <div className={style.rating}>4.5</div></div>
                     <p>Himalayas, Hawaii</p>
                     <div className={style.book_btn__group}>
@@ -40,7 +40,7 @@ function Locations() {
                     </div>
                 </div>
                 <div className={`${style.location}`}>
-                    <Image src={location4} alt="" />
+                    <Image src={location4} alt="Man Riding a camel" />
                     <div className={style.location__header}><h3>Mountain Hiking Tour</h3> <div className={style.rating}>4.5</div></div>
                     <p>Himalayas, Hawaii</p>
                     <div className={style.book_btn__group}>

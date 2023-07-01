@@ -8,15 +8,17 @@ function ValueProp() {
   return (<>
     <section className="section section__value bg__grey">
       <div className="section__inner">
-        <div className={`${style.value} value-1`}>
+        <div className={`${style.value} ${style.value__1}  value-1`}>
           <div className={`${style.value__photo}`}>
             <Image
             src={image_cameraman}
+            alt="Boy on yellow jacket with a canon camera around his neck, smiling to the camera with hands in his pocket"
             />
             <div className={`${style.destinations__card}`}>
               <div className={`${style.image__wrapper}`}>
               <Image
                 src={image_locationIcon}
+                alt="Location Icon on pink linear gradient background"
               />
               </div>
               
@@ -27,6 +29,7 @@ function ValueProp() {
             <div className={`${style.image__wrapper}`}>
               <Image
                 src={image_hotspotIcon}
+                alt="hotspot icon"
               />
               </div>
               <div className={`${style.stats}`}>
@@ -56,6 +59,7 @@ function ValueProp() {
           <div className={`${style.value__photo}`}>
             <Image
               src={world}
+              alt="Light pink map of the world, Flat earthers will be proud of this map lol"
             />
           </div>
         </div>

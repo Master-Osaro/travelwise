@@ -59,15 +59,19 @@ function Footer({nunito}) {
                 <li><a href="#"><i className="bi bi-map"></i>support@travelwise.com</a></li>
             </ul>
             <ul className="footer-links social-list">
-                <li><a href="#"><Image src={facebook} /></a></li>
-                <li><a href="#"><Image src={twitter} /></a></li>
-                <li><a href="#"><Image src={instagram} /></a></li>
-                <li><a href="#"><Image src={telegram} /></a></li>
+                <li><a href="#"><Image src={facebook} alt="Facebook link"/></a></li>
+                <li><a href="#"><Image src={twitter} alt="Twitter link"/></a></li>
+                <li><a href="#"><Image src={instagram} alt="Instagram link"/></a></li>
+                <li><a href="#"><Image src={telegram} alt="Telegram link"/></a></li>
             </ul>
 
         </div>
         <div>
-            <h5>United States</h5>
+            <h5>Built with {`<3`}</h5>
+            <ul className="footer-links">
+                <li><a href="#">Icons 8</a></li>
+                <li><a href="#">Next.js</a></li>
+            </ul>
         </div>
         </div>
         <div className="logo-wrapper">

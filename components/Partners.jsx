@@ -11,11 +11,11 @@ function Partners() {
     <section className={`section ${styles.section__partners}`}>
         <div className={`section__inner ${styles.section__inner}`}>
         <div className={`${styles.partner__list}`}>
-            <div className={`${styles.partner}`}><Image src={logo_airbnb} /></div>
-            <div className={`${styles.partner}`}><Image src={logo_booking} /></div>
-            <div className={`${styles.partner}`}><Image src={logo_expedia} /></div>
-            <div className={`${styles.partner}`}><Image src={logo_spotify} /></div>
-            <div className={`${styles.partner}`}><Image src={logo_skyscanner} /></div>
+            <div className={`${styles.partner}`}><Image src={logo_airbnb} alt="Airbnb"/></div>
+            <div className={`${styles.partner}`}><Image src={logo_booking} alt="Booking"/></div>
+            <div className={`${styles.partner}`}><Image src={logo_expedia} alt="Expedia"/></div>
+            <div className={`${styles.partner}`}><Image src={logo_spotify} alt="Spotify"/></div>
+            <div className={`${styles.partner}`}><Image src={logo_skyscanner} alt="Skyscanner"/></div>
         </div>
             
         </div>
