@@ -8,7 +8,7 @@
     border-radius: 1rem;
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 640px) {
     .section__subscribe .section__inner{
         grid-template-columns:  1fr;
         gap: 1rem;

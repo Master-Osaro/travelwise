@@ -83,7 +83,7 @@ p {
     justify-content: center;
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 640px) {
     .btn {
         text-align: center;
         justify-content: center;
@@ -116,7 +116,7 @@ p {
     gap: 0.8rem;
     
 }
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 760px) {
     .nav .nav-list{
         display: none;
         
@@ -156,7 +156,7 @@ nav .logo, .logo-wrapper .logo{
     color: var(--light-grey);
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 760px) {
     nav .nav-list{
         display: flex;
         flex-direction: column;
