@@ -34,6 +34,7 @@
 @media screen and (max-width: 640px) {
     .section__subscribe form{
         flex-direction: column;
+        gap: 1rem;
     }
 }
 
@@ -63,3 +64,10 @@
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
+@media screen and (max-width: 640px) {
+    .section__subscribe input,
+    .section__subscribe button{
+        border-radius: 0.5rem;
+    }
+    
+}
