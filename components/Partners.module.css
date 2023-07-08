@@ -5,6 +5,15 @@
     gap: 1rem;
     align-items: center;
 }
+
+@media screen and (max-width: 640px){
+    .section__partners .partner__list{
+        place-items: center;
+    }
+    
+    
+}
+
 .section__partners .partner img{
     width: 100%;
     max-width: 180px;
