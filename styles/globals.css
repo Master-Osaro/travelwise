@@ -260,6 +260,16 @@ footer h5{
     flex-direction: column;
     gap: 0.75rem;
 }
+
+@media screen and (max-width: 640px){
+    footer h5{
+        text-align: center;
+    }
+    .footer-links{
+        align-items: center;
+    }
+}
+
 .footer-links li a{
     text-decoration: none;
     color: var(--blue-header);
@@ -272,16 +282,41 @@ footer .logo-wrapper{
         justify-content: space-between;
         margin-bottom: 4rem;
 }
+
+
 footer .logo{
         font-size: 1.6rem;
         color: var(--primary-pink);
         font-weight: 700;
 }
+
+@media screen and (max-width: 640px){
+    footer .logo-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    footer .logo-wrapper p{
+        text-align: center;
+    }
+
+    footer .logo{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 footer .social-list{
         flex-direction: row;
         align-items: center;
         margin-top: 2rem;
         gap: 1.6rem;
         opacity: 0.8;
+}
+
+@media screen and (max-width: 640px){
+    footer .social-list{
+        justify-content: center;
+    }
 }
 
