@@ -38,6 +38,9 @@ function Intro() {
                         <div className="icon">
                             <Search size={24}/>
                         </div>
+                        <p className={`${style.btn__text}`}>
+                            Search
+                        </p>
                     </button>
                 </form>
 

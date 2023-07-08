@@ -20,6 +20,14 @@
     font-size: 3.5rem;
     font-weight: 900;
 }
+
+@media screen and (max-width: 640px){
+    .section__intro h1{
+        font-size: 2.25rem;
+        font-weight: 900;
+    }
+    
+}
 .section__intro h1, .where .title, .date .title{
     color: var(--blue-header);
 }
@@ -63,6 +71,10 @@
 }
 
 @media screen and (max-width: 640px){
+
+    .where .title, .date .title{
+        padding: 0 0.5rem;
+    }
     .where .text, .date .text{
         width: 100%;
     }
@@ -74,13 +86,9 @@
     }
     
 }
-@media screen and (max-width: 640px){
-    .search__btn{
-        aspect-ratio: unset;
-        border-radius: 1rem;
-        width: 100%;
-    }
-    
+
+.btn__text{
+    display: none;
 }
 
 
@@ -161,9 +169,20 @@
         aspect-ratio: unset;
         border-radius: 1rem;
         width: 100%;
+        gap:  1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn__text{
+        display: block;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: var(--white) !important;
     }
     
 }
+
 
 .proof__title {
     color: var(--primary-pink);
