@@ -33,11 +33,12 @@ export default function Home() {
         <meta property="title" content="Travel Wise" />
         <meta name="description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh " />
         <meta name="keywords" content="Travel, Travelwise, Travel wise, Destination, experiences, 100daysofcode, frontendmentor, osaro, osaro iyoha, iyoha, javascript beginner, frontend, next js, Oshioke UI" />
+        <meta property="image" content="https://travelwise-eight.vercel.app/travelwise.jpg" />
         <meta property="og:title" content="TravelWise" />
         <meta property="og:type" content="article" />
         <meta property="og:description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh" />
         <meta property="og:url" content="https://travelwise-eight.vercel.app/" />
-        <meta property="og:image" content="/travelwise.jpg" />
+        <meta property="og:image" content="https://travelwise-eight.vercel.app/travelwise.jpg" />
         <meta property="twitter:description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image:alt" content="Travelwise website design preview" />
