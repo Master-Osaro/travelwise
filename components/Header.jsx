@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 import { Inter } from 'next/font/google'
 import styles from '@/components/Header.module.css'
 import Logo from './Logo'
@@ -15,9 +16,9 @@ function Header() {
       <button className="menu" aria-label="menu" aria-expanded={navOpen} onClick={()=>{setNavOpen(!navOpen)}}><List size={24} /></button>
       <div className={`nav__group ${navOpen? "show":""}`}>
         <ul className={`nav-list`}>
-          <li><a href="#programs"><i className="bi bi-map"></i>Home</a></li>
-          <li><a href="#admissions"><i className="bi bi-arrows-move"></i>Listing</a></li>
-          <li><a href="#contact"><i className="bi bi-chat-square"></i>Contact Us</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/destinations">Listings</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
         <div className="btn-group">
           <button className="btn btn-primary" onClick={()=>{setNavOpen(!navOpen)}}>Login</button>
