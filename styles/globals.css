@@ -175,6 +175,7 @@ nav .logo {
 .nav-list a:hover{
     background: var(--black);
     color: var(--primary-pink);
+    transition: all .3s;
 }
 
 @media screen and (max-width: 760px) {
@@ -348,6 +349,7 @@ footer h5{
 
 .footer-links a:hover{
     color: var(--primary-pink);
+    transition: all .3s;
 }
 
 footer .logo-wrapper{
