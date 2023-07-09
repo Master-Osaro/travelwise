@@ -2,6 +2,8 @@
 
 This is a project to understand tryout [Next.js](https://nextjs.org/) project. Bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Replicated the UI from this tweet by @oshie_20 [TravelWise UI](https://twitter.com/oshie_20/status/1642808605740089345)
 
+## Live Link
+[TravelWise Website](https://travelwise-eight.vercel.app/)
 ## Screenshot
 ![TravelWise Intro Screenshot](./screenshots/travelwise.jpg)
 
