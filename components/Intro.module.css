@@ -44,6 +44,7 @@
     .content{
         text-align: center;
         place-items: center;
+        order: 3;
     }
     
 }
@@ -200,6 +201,7 @@
 @media screen and (max-width: 640px){
     .media{
         margin-left: unset;
+        order: 2;
     }
 }
 .media__item img{
