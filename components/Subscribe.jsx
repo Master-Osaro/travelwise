@@ -14,7 +14,7 @@ function Subscribe() {
             <h3>Subscribe to our newsletter to get exclusive updates from Us</h3>
             <p>Receive latest news, update, and many other things every week</p>
             <form>
-                <input type="text" />
+                <input type="text" required/>
                 <button className="btn btn-primary">Subscribe</button>
             </form>
         </div>

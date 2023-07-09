@@ -69,5 +69,8 @@
     .section__subscribe button{
         border-radius: 0.5rem;
     }
+    .section__subscribe button{
+        width: 100%;
+    }
     
 }
