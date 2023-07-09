@@ -25,10 +25,22 @@ export default function Home() {
   return (
     <>
       <Head>
+        
+        <meta charset="utf-8" />
         <title>Travel Wise</title>
-        <meta name="description" content="Your travel companion app" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="title" content="Travel Wise" />
+        <meta name="description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh " />
+        <meta name="keywords" content="Travel, Travelwise, Travel wise, Destination, experiences, 100daysofcode, frontendmentor, osaro, osaro iyoha, iyoha, javascript beginner, frontend, next js, Oshioke UI" />
+        <meta property="og:title" content="TravelWise" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh" />
+        <meta property="og:url" content="https://travelwise-eight.vercel.app/" />
+        <meta property="og:image" content="/travelwise.jpg" />
+        <meta property="twitter:description" content="TravelWise Your travel companion app. UI Design - @oshioke_ui, Code - @osaaroh" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content="Travelwise website design preview" />
       </Head>
       <Header />
       <main className={`${nunito.variable} ${nunito_sans.variable} ${styles.main}`}>
