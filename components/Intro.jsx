@@ -19,7 +19,7 @@ function Intro() {
                         </div>
                         <div className={`${style.text}`}>
                             <p className={`${style.title}`}>Where to</p>
-                            <input type="text" placeholder="Search any location"/>
+                            <input type="text" placeholder="Search any location" required/>
                         </div>
                     </div>
                     <div className={`${style.slash}`}></div>
@@ -30,7 +30,7 @@ function Intro() {
                         
                         <div className={`${style.text}`}>
                             <p className={`${style.title}`}>Date</p>
-                            <input type="date" placeholder="Select a date"/>
+                            <input type="date" placeholder="Select a date" required/>
                         </div>
                         
                     </div>
