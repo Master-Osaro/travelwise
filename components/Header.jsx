@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className={`${inter.className} ${styles.header}`}>
     <nav className={`${inter.className} nav`}>
-      <Logo />
+      <Link href="/"><Logo /></Link>
       <button className="menu" aria-label="menu" aria-expanded={navOpen} onClick={()=>{setNavOpen(!navOpen)}}><List size={24} /></button>
       <div className={`nav__group ${navOpen? "show":""}`}>
         <ul className={`nav-list`}>
