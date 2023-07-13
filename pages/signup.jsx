@@ -9,6 +9,7 @@ import Locations from '@/components/Locations'
 import Subscribe from '@/components/Subscribe'
 import Footer from '@/components/Footer'
 import Partners from '@/components/Partners'
+import DemoComponent from '@/components/DemoComponent'
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function SignUp() {
       <Header />
       <main className={`${nunito.variable} ${nunito_sans.variable} ${styles.main}`}>
         <h2 className="">Sign Up</h2>
+        <DemoComponent />
       </main>
       <Footer nunito={nunito}/>
     </>

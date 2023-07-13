@@ -1,0 +1,11 @@
+/* .demo__image{} */
+.demo__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    text-align: center;
+}
+.demo__content p{
+    max-width: 600px;
+}
