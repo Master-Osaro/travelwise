@@ -71,7 +71,7 @@ function Footer({nunito}) {
             <ul className="footer-links">
                 <li><a href="https://icons8.com/">Icons8</a></li>
                 <li><a href="https://nextjs.org/learn/foundations/about-nextjs">Next.js</a></li>
-                <li><a href="https://twitter.com/oshie_20/status/1642808605740089345">Oshioke's UI</a></li>
+                <li><a href="https://twitter.com/oshie_20/status/1642808605740089345">{`Oshioke's UI`}</a></li>
             </ul>
         </div>
         </div>
